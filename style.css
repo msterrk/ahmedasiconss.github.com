@@ -1,0 +1,29 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  bix-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+}
+ul
+{
+  position: relative;
+  display: flex;
+}
+ul li
+{
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+ul li a
+{
+  text-decoration: none;
+}
